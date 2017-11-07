@@ -1,0 +1,178 @@
+        .logo {
+            transform: translate(450px,0px);
+        }
+        .bar {
+            transform: translate(40px,-40px);
+            list-style-type: none;
+        }
+        .list{
+            float: left;
+            color: black;
+            padding-left: 250px;
+            font-size: 20px;
+            transform: translate(20px,0px);
+        }
+        a.link2 {
+            text-decoration: none;
+            color: black;
+            transition: color 300ms ease;
+        }
+         .link3 {
+            text-decoration: none;
+            color: black;
+        }
+        li a.active {
+            color: lightblue;
+        }
+        li a:hover:not(.active){
+                                background: #ffffff;
+                                color: lightblue;
+        }
+        .dropdown-menu {
+            transform: translate(220px,0px);
+        }
+        .dropdown-toggle {
+            text-decoration: none;
+            transition: color 300ms ease;
+        }
+        .dropdown-toggle:hover{
+            color: lightblue;
+            background: white;
+            text-decoration: none;
+        }
+        .box {
+          width: 575px;
+          height: 575px;
+          border-radius: 50%;
+          transform: translate(0px, 42px);
+          transition: 0.3s ease;
+        }
+        .img {
+            width: 575px;
+            height: 575px;
+            border-radius: 50%;
+            transform: translate(0px, 42px);
+            box-shadow: black 4px 4px 10px;
+            transition: 0.3s ease;
+        }
+        .pop {
+          transition: 0.3s ease;
+          opacity: 0;
+          transform: translate(100px, -350px)
+        }
+        .box:hover .img {
+          opacity:0.3;
+        }
+        .box:hover .pop {
+          opacity: 1;
+        }
+      .colo {
+        height: 575px;
+        margin-top: 39px;
+        box-shadow: black 4px 4px 4px
+      }
+      .text {
+        color: white;
+        text-align: center;
+        padding-top: 150px
+      }
+      .fb {
+            margin:20pt 10pt 0;
+            width:30pt;
+            transition: 300ms ease;
+        }
+      a.me {
+        text-decoration: none;
+      }
+      a.me:hover {
+        text-decoration: none;
+      }
+      .lasttext{
+        color: darkgrey;
+        text-align: left;
+        padding-top: 6px;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .panel2 {
+        margin-top: 100px;
+        background:rgba(255,255,255,0.6);
+        height: 650px
+      }
+      .panel1 {
+        margin-top: 100px;
+        background:rgba(95,95,95,0.6);
+        height: 650px
+      }
+       @keyframes html {
+            from {width: 0%}
+            to {width: 60%}
+        }
+        @keyframes css {
+            from {width: 0%}
+            to {width: 40%}
+        }
+        @keyframes ps {
+            from {width: 0%}
+            to {width: 50%}
+        }
+        .skillset {
+        width: 90%;
+        background: #ddd;
+        margin-left: 30px;
+    }
+    .skills {
+        text-align: right;
+        color: white;
+        padding-right: 20px;
+        line-height: 40px;
+    }
+    .html {
+        width: 60%;
+        background: #2196F3;
+        animation-name: html;
+        animation-duration: 3s;
+    }
+    .css {
+        width: 40%;
+        background: #F44336;
+        animation-name: css;
+        animation-duration: 3s;
+    }
+    .ps {
+        width: 50%;
+        background: #808080;
+        animation-name: ps;
+        animation-duration: 3s;
+    }
+    .acad {
+        background: rgba(95,95,95,0.1);
+        padding: 10px;
+    }
+     .about {
+            background: rgba(95,95,95,0.2);
+            box-shadow: 5px 5px 5px black;
+            padding: 60px;
+         height: 400px;
+        }
+     .contact {
+      background:url(old_building1.gif) no-repeat;
+	  background-size:cover;
+        }
+      div.me {
+            background: rgba(255,255,255,0.5);
+            margin: 30px;
+            padding: 50px;
+            font-size: 30px;
+            text-align: center;
+            box-shadow: 5px 5px 15px grey;
+          transform: translate(120px,0px);
+        }
+      .fb {
+            transition: 300ms ease;
+        }
+
+       .fb:hover {
+            transform:scale(1.1);
+        }
+

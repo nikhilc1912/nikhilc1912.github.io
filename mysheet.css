@@ -1,0 +1,61 @@
+        body {
+            background: linear-gradient(to bottom right, cyan, blue);
+        }
+        ul.navbar {
+             list-style-type: none;
+             overflow: hidden;
+             background: #222222;
+        }
+        li.navbar2 {
+            float: left;
+        }
+        li a {
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            padding: 50px;
+            color: white;
+            transition: 300ms ease;
+        }
+        li a.active {
+            background: #4CAF50;
+            transform: scale(1.1);
+            color: #ffffff;
+        }
+        li a:hover:not(.active) {
+                                background: #000000;
+                                transform: scale(1.1);
+                                color:white;
+        }
+        div.me {
+            background: rgba(255,255,255,0.5);
+            margin: 30px;
+            padding: 50px;
+            font-size: 30px;
+            text-align: center;
+            box-shadow: 5px 5px 15px grey;
+        }
+        .fb {
+            margin:20pt 10pt 0;
+            width:30pt;
+            transition: 300ms ease;
+        }
+
+       .fb:hover {
+            transform:scale(1.1);
+        }
+        .adjustment {
+            transform:translate(680px,-138px);
+        }
+        @keyframes html {
+            from {width: 0%}
+            to {width: 60%}
+        }
+        @keyframes css {
+            from {width: 0%}
+            to {width: 40%}
+        }
+        @keyframes ps {
+            from {width: 0%}
+            to {width: 50%}
+        }

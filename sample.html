@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="sheet.css">
+    <link rel="stylesheet" type="text/css" href="mysheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    .academics {
+        float: left;
+    }
+    .card {
+        box-shadow: 4px 4px 10px black;
+        background: white;
+    }
+    .nik {
+        display: block;
+        position: relative;
+        height: 400px;
+        width: 400px;
+        transition: 0.3s ease;
+    }
+    .middle {
+        transition: 0.3s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .card:hover .nik {
+        opacity: 0.3;
+    }
+    .card:hover .middle {
+        opacity: 1
+    }
+    .text {
+        position: relative;
+        display: block;
+        top: 50%;
+        left: 50%;
+        background: #4CAF50;
+        color: white;
+        transform: translate(-600px,30px);
+        font-size: 30px;
+    }
+    .container {
+        padding: 50px;
+    }
+    .skillset {
+        width: 90%;
+        background: #ddd;
+        margin-left: 30px;
+    }
+    .skills {
+        text-align: right;
+        color: white;
+        padding-right: 20px;
+        line-height: 40px;
+    }
+    .html {
+        width: 60%;
+        background: #2196F3;
+        animation-name: html;
+        animation-duration: 3s;
+    }
+    .css {
+        width: 40%;
+        background: #F44336;
+        animation-name: css;
+        animation-duration: 3s;
+    }
+    .ps {
+        width: 50%;
+        background: #808080;
+        animation-name: ps;
+        animation-duration: 3s;
+    }
+</style>
+<body>
+<ul class="navbar">
+    <li class="navbar2"><a href="homepage.html">Home</a></li>
+    <li class="navbar2"><a href="academics.html" class="active">Academics</a> </li>
+    <li class="navbar2"><a href="aboutme.html">About Me</a></li>
+    <li class="navbar2"><a href="contact.html">Contact Me</a></li>
+</ul>
+<div style="margin-top: 50px; margin-left: 50px">
+    <div class="card" style="width: 400px">
+        <img src="Nikhil.jpg" alt="Nikhil" class="nik">
+        <div class="middle">
+            <div class="text">
+                Nikhil Chhatri
+            </div>
+        </div>
+        <div class="container">
+            <h1 style="text-align: center;">Nikhil Chhatri</h1>
+            <ul>
+                <li><b>Junior Executive Member at:</b>Gopali Youth Welfare Society</li>
+                <li><b>Campus Affiliate at:</b>Kshitij 2018</li>
+            </ul>
+        </div>
+    </div>
+    <div class="card" style="width: 900px;transform: translate(500px,-675px); font-size: 20px; height: 650px">
+        <h1 style="padding-left: 30px">Academics</h1>
+        <ul style="list-style-type: none; padding-left: 30px; padding-top: 30px; padding-bottom: 30px">
+            <li><b>Graduated from:</b>Ambuja Vidya Peeth</li>
+            <li><b>Studies:</b>Mechanical Engineering at IIT Kharagpur</li>
+        </ul>
+        <h1 style="padding-left: 30px">Skills</h1>
+        <p style="padding-left: 30px">HTML</p>
+        <div class="skillset">
+            <div class="skills html">
+                60%
+            </div>
+        </div>
+        <p style="padding-left: 30px">CSS</p>
+        <div class="skillset">
+            <div class="skills css">
+                40%
+            </div>
+        </div>
+        <p style="padding-left: 30px">Photoshop</p>
+        <div class="skillset">
+            <div class="skills ps">
+                50%
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
